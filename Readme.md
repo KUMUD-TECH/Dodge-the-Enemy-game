@@ -2,6 +2,9 @@
 
 A simple web-based game where you control a red ball and try to survive as long as possible by avoiding moving obstacles.
 
+![Gameplay Screenshot](images/homepage.png)
+
+
 ## How to Play
 - Move your red ball with the mouse inside the white container.
 - Avoid all black enemy blocks.
