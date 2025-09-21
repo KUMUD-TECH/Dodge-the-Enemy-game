@@ -1,0 +1,12 @@
+# Ignore VS Code workspace settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+
+
+# Logs
+*.log
+
