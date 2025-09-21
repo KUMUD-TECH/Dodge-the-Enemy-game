@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  background-color:aqua;
+  cursor: auto;
+}
+
+#help{
+  height:80px;
+  width:100px;
+  position:absolute;
+  right:0px;
+}
+
+#score{
+  text-align: center;
+}
+.container{
+  height:450px;
+  width:450px;
+  background-color: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  cursor:auto;
+  border: 3px solid black;
+}
+
+.container.fault {
+  border: 3px solid red;     
+}
+
+.enemy1{
+  height:80px;
+  width:80px;
+  background-color: black;
+  position: relative;
+  margin: auto;
+  inset:0px 100px 100px -185px;
+  animation-name: ex1;
+  animation-duration:4s ;
+  animation-iteration-count: 55;
+  
+  overflow: hidden;
+}
+
+ @keyframes ex1{
+  0% {left:-185px; top:0px;}
+  25% {left:185px; top:0px;}
+  50% {left:185px; top:370px;}
+  75% {left:-185px; top:370px;}
+  100% { left:-185px; top:0px;}
+}
+
+.enemy2{
+  height:80px;
+  width:80px;
+  background-color: black;
+  position: relative;
+  margin-left: auto;
+  inset:290px 0px 100px -370px;
+  animation-name: ex2;
+  animation-duration:6s;
+  animation-iteration-count: 55;
+ 
+  overflow: hidden;
+}
+
+ @keyframes ex2{
+  0% {left:-370px; top:290px;}
+  25% {left:0px; top:-80px;}
+  50% {left:-370px; top:-80px;}
+  75% {left:0px; top:290px;}
+  100% { left:-370px; top:290px;}
+}
+
+.enemy3{
+  height:80px;
+  width:80px;
+  background-color: black;
+  position: relative;
+  margin-left: auto;
+  inset:210px 100px 100px 0px;
+  animation-name: ex3;
+  animation-duration:5s;
+  animation-iteration-count: 55;
+  
+  overflow: hidden;
+}
+
+ @keyframes ex3{
+  0% {left:0px; top:210px;}
+  25% {left:-370px; top:-160px;}
+  50% {left:0px; top:-160px;}
+  75% {left:-370px; top:210px;}
+  100% { left:0px; top:210px;}
+}
+
+.enemy4{
+  height:80px;
+  width:80px;
+  background-color: black;
+  position: relative;
+  margin-left: auto;
+  inset:-240px 100px 100px 0px;
+  animation-name: ex4;
+  animation-duration:3s;
+  animation-iteration-count: 55;
+  
+  overflow: hidden;
+}
+
+ @keyframes ex4{
+  0% {left:0px; top:-240px;}
+  25% {left:-350px; top:-100px;}
+  50% {left:-300px; top: 0px;}
+  75% {left:-50px; top:0px;}
+  100% { left:0px; top:-240px;}
+}
+
+.player{
+  height:50px;
+  width:50px;
+  background-color:red;
+  border-radius: 80px;
+  position: relative;
+  inset:-100px 100px 200px 220px ;
+  transform: translate(-0%, -610%);
+
+}
+
+
+footer{
+  text-align: center;
+}

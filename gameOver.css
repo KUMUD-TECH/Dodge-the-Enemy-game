@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background-color:aqua;
+
+}
+
+#end{
+    color: red;
+    font-family:'Bangers', cursive;
+    font-size: 100px;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(255, 234, 0); 
+    text-shadow: 0 0 10px rgba(241, 100, 24, 0.8);
+
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  /* margin-top: 20px; */
+}
+
+h1:nth-of-type(2) {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+#again{
+    color: rgb(245, 233, 178);
+    font-family:'Bangers', cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(56, 55, 27);
+    
+    transition: all 0.5s ease;
+    
+}
+
+#link{
+    text-decoration: none;
+}
+
+#link:hover #again {
+  color: red;              
+  transform: scale(1);    
+  -webkit-text-stroke: 1px rgb(249, 241, 17);
+  text-shadow: 6px 6px 15px black;
+}
