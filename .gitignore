@@ -1,5 +1,5 @@
 # Ignore VS Code workspace settings
-.vscode/
+.vscode
 
 # Windows system files
 Thumbs.db
